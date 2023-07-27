@@ -1,0 +1,66 @@
+    data = self._sock.recv(self.max_size)
+ConnectionResetError: [Errno 104] Connection reset by peer
+2022-09-04 11:24:21,114 - __main__ - INFO - new MC at 10.2.16.73
+2022-09-04 11:24:21,115 - __main__ - INFO - MC for 10.250.23.95 connecting
+2022-09-04 11:24:21,115 - __main__ - INFO - link for ADC 10.250.23.95 already established
+2022-09-04 11:24:21,115 - __main__ - DEBUG - register MC for 10.250.23.95
+2022-09-04 11:24:21,121 - __main__ - INFO - Disconnect 10.250.23.95
+2022-09-04 11:24:21,121 - __main__ - INFO - ADC 10.250.23.95 disconnected
+2022-09-04 11:24:21,121 - __main__ - DEBUG - MC for 10.250.23.95: client task done
+2022-09-04 11:24:21,121 - asyncio - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-28' coro=<MyServer._handle_mc_client() done, defined at ./cmc.py:253> exception=ConnectionResetError(104, 'Connection reset by peer')>
+Traceback (most recent call last):
+  File "./cmc.py", line 274, in _handle_mc_client
+    line = await client_reader.readline()
+  File "/usr/lib/python3.8/asyncio/streams.py", line 540, in readline
+    line = await self.readuntil(sep)
+  File "/usr/lib/python3.8/asyncio/streams.py", line 632, in readuntil
+    await self._wait_for_data('readuntil')
+  File "/usr/lib/python3.8/asyncio/streams.py", line 517, in _wait_for_data
+    await self._waiter
+  File "/usr/lib/python3.8/asyncio/selector_events.py", line 848, in _read_ready__data_received
+    data = self._sock.recv(self.max_size)
+ConnectionResetError: [Errno 104] Connection reset by peer
+2022-09-04 11:27:10,475 - __main__ - INFO - new MC at 10.2.16.73
+2022-09-04 11:27:10,476 - __main__ - INFO - MC for 10.250.23.95 connecting
+2022-09-04 11:27:10,476 - __main__ - INFO - link for ADC 10.250.23.95 already established
+2022-09-04 11:27:10,476 - __main__ - DEBUG - register MC for 10.250.23.95
+2022-09-04 11:27:10,627 - __main__ - INFO - Disconnect 10.250.23.95
+2022-09-04 11:27:10,627 - __main__ - INFO - ADC 10.250.23.95 disconnected
+2022-09-04 11:27:10,628 - __main__ - DEBUG - MC for 10.250.23.95: client task done
+2022-09-04 11:27:10,628 - asyncio - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-30' coro=<MyServer._handle_mc_client() done, defined at ./cmc.py:253> exception=ConnectionResetError(104, 'Connection reset by peer')>
+Traceback (most recent call last):
+  File "./cmc.py", line 274, in _handle_mc_client
+    line = await client_reader.readline()
+  File "/usr/lib/python3.8/asyncio/streams.py", line 540, in readline
+    line = await self.readuntil(sep)
+  File "/usr/lib/python3.8/asyncio/streams.py", line 632, in readuntil
+    await self._wait_for_data('readuntil')
+  File "/usr/lib/python3.8/asyncio/streams.py", line 517, in _wait_for_data
+    await self._waiter
+  File "/usr/lib/python3.8/asyncio/selector_events.py", line 848, in _read_ready__data_received
+    data = self._sock.recv(self.max_size)
+ConnectionResetError: [Errno 104] Connection reset by peer
+2022-09-04 11:28:52,641 - __main__ - INFO - new MC at 10.2.16.73
+2022-09-04 11:28:52,642 - __main__ - INFO - MC for 10.250.23.95 connecting
+2022-09-04 11:28:52,642 - __main__ - INFO - link for ADC 10.250.23.95 already established
+2022-09-04 11:28:52,642 - __main__ - DEBUG - register MC for 10.250.23.95
+2022-09-04 11:28:52,648 - __main__ - INFO - Disconnect 10.250.23.95
+2022-09-04 11:28:52,648 - __main__ - INFO - ADC 10.250.23.95 disconnected
+2022-09-04 11:28:52,648 - __main__ - DEBUG - MC for 10.250.23.95: client task done
+2022-09-04 11:28:52,648 - asyncio - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-32' coro=<MyServer._handle_mc_client() done, defined at ./cmc.py:253> exception=ConnectionResetError(104, 'Connection reset by peer')>
+Traceback (most recent call last):
+  File "./cmc.py", line 274, in _handle_mc_client
+    line = await client_reader.readline()
+  File "/usr/lib/python3.8/asyncio/streams.py", line 540, in readline
+    line = await self.readuntil(sep)
+  File "/usr/lib/python3.8/asyncio/streams.py", line 632, in readuntil
+    await self._wait_for_data('readuntil')
+  File "/usr/lib/python3.8/asyncio/streams.py", line 517, in _wait_for_data
+    await self._waiter
+  File "/usr/lib/python3.8/asyncio/selector_events.py", line 848, in _read_ready__data_received
+    data = self._sock.recv(self.max_size)
+ConnectionResetError: [Errno 104] Connection reset by peer
+

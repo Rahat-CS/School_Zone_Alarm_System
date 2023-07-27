@@ -1,0 +1,15 @@
+# This defines what files get copied where when they are updated.
+# This is a config file used by rms/wiki/bin/source_update.py
+#
+# Copyright (c) DEK Technologies 2021 All rights reserved
+
+./:
+  conftest.py: "scp PATH rms:~/t1fw/test"
+testbench/:
+  X.py: "scp PATH rms:~/t1fw/test/testbench"
+
+features/:
+  X.feature: "scp PATH rms:~/t1fw/test/features"
+
+steps/:
+  X.py: "scp PATH rms:~/t1fw/test/steps"
